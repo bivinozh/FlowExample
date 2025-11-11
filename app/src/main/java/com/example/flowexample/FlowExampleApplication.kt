@@ -13,6 +13,7 @@ class FlowExampleApplication : Application() {
         
         // Initialize the MessageManager singleton when the app opens
         MessageManager.initialize()
+        MessageManager.updateMessage("L-Tunnel initialized: Blue arrows flowing ►")
         
         // You can perform other app-wide initialization here
     }
